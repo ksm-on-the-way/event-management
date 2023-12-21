@@ -197,6 +197,7 @@
             Controls.Add(grbTimKiem);
             Controls.Add(lblDangKySuKien);
             Controls.Add(dgvDanhSachSuKien);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "SuKienDaToChuc";

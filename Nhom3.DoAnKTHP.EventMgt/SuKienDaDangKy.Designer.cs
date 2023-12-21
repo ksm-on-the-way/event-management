@@ -174,6 +174,7 @@
             Controls.Add(lblDanhSachSuKienDaDangKy);
             Controls.Add(dgvDanhSachSuKien);
             ForeColor = Color.FromArgb(4, 102, 200);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "SuKienDaDangKy";

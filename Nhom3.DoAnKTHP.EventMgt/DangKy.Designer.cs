@@ -459,6 +459,7 @@
             Controls.Add(lblHoVaTen);
             Controls.Add(txtHoVaTen);
             Controls.Add(lblDangKy);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "DangKy";

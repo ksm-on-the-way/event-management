@@ -463,6 +463,7 @@
             Controls.Add(lblChuDe);
             Controls.Add(txtTenSuKien);
             Controls.Add(lblTenSuKien);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "ChiTietSuKien";

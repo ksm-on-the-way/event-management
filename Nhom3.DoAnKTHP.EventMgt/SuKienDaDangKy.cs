@@ -49,6 +49,7 @@ namespace Nhom3.DoAnKTHP.EventMgt
 
             dgvDanhSachSuKien.DataSource = sukiens.Where(xxx => xxx.MaTrangThaiDuyet == 3).Where(yyy => dangKyThamGiaBLL.GetAllDangKyThamGias().Where(xxx => xxx.MaSuKien == yyy.MaSuKien && xxx.MaThanhVien == thanhVien.MaThanhVien).ToList().Count > 0).ToList();
             dgvDanhSachSuKien.Columns["MaSuKien"].Visible = false;
+            dgvDanhSachSuKien.Columns["MaTrangThaiDuyet"].Visible = false;
 
             // Load data cho combobox
             cbChuDe.DataSource = chuDeBLL.GetAllChuDes();
@@ -78,6 +79,7 @@ namespace Nhom3.DoAnKTHP.EventMgt
 
             dgvDanhSachSuKien.DataSource = sukiens.Where(yyy => dangKyThamGiaBLL.GetAllDangKyThamGias().Where(xxx => xxx.MaSuKien == yyy.MaSuKien && xxx.MaThanhVien == thanhVien.MaThanhVien).ToList().Count > 0).Where(xxx => xxx.TenSuKien.Trim().ToLower().Contains(txtTuKhoa.Text.Trim().ToLower())).ToList();
             dgvDanhSachSuKien.Columns["MaSuKien"].Visible = false;
+            dgvDanhSachSuKien.Columns["MaTrangThaiDuyet"].Visible = false;
         }
 
         private void cbChuDe_SelectedIndexChanged(object sender, EventArgs e)
@@ -109,6 +111,7 @@ namespace Nhom3.DoAnKTHP.EventMgt
             }
 
             dgvDanhSachSuKien.Columns["MaSuKien"].Visible = false;
+            dgvDanhSachSuKien.Columns["MaTrangThaiDuyet"].Visible = false;
         }
 
         private void btnDanhGia_Click(object sender, EventArgs e)

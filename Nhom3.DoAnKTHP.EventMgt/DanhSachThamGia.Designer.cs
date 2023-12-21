@@ -118,6 +118,7 @@
             Controls.Add(btnXoa);
             Controls.Add(lblDanhSachThamGia);
             Controls.Add(dgvDanhSachNguoiThamGia);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "DanhSachThamGia";

@@ -183,6 +183,7 @@
             Controls.Add(dgvDanhSachSuKien);
             Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold);
             ForeColor = Color.FromArgb(4, 102, 200);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(3, 4, 3, 4);
             MaximizeBox = false;
             MinimizeBox = false;

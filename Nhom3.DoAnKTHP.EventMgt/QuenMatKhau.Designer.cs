@@ -275,6 +275,7 @@
             Controls.Add(label1);
             Controls.Add(lblKhoiPhucTaiKhoan);
             ForeColor = Color.FromArgb(4, 102, 200);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "QuenMatKhau";

@@ -251,9 +251,9 @@
             lblNgaySinh.ForeColor = Color.FromArgb(4, 102, 200);
             lblNgaySinh.Location = new Point(53, 122);
             lblNgaySinh.Name = "lblNgaySinh";
-            lblNgaySinh.Size = new Size(174, 15);
+            lblNgaySinh.Size = new Size(74, 15);
             lblNgaySinh.TabIndex = 35;
-            lblNgaySinh.Text = "Ngày sinh/Ngày thành lập:";
+            lblNgaySinh.Text = "Ngày sinh:";
             // 
             // lblHoVaTen
             // 
@@ -406,6 +406,7 @@
             Controls.Add(txtHoVaTen);
             Controls.Add(lblTaoTaiKhoanDonViToChuc);
             Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(3, 4, 3, 4);
             MaximizeBox = false;
             MinimizeBox = false;

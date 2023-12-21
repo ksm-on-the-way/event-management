@@ -290,6 +290,7 @@
             Controls.Add(lblHoVaTen);
             Controls.Add(txtHoVaTen);
             Controls.Add(lblDangKy);
+            FormBorderStyle = FormBorderStyle.FixedToolWindow;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "ChinhSuaHoSoCaNhan";

@@ -154,6 +154,7 @@
             Controls.Add(radioBtnKhongHaiLong);
             Controls.Add(radioBtnRatKhongHaiLong);
             Controls.Add(lblDanhGiaSuKien);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "DanhGiaSuKien";

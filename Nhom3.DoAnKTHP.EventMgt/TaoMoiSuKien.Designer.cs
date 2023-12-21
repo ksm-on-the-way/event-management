@@ -358,6 +358,7 @@
             Controls.Add(txtTenSuKien);
             Controls.Add(lblTenSuKien);
             Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(3, 4, 3, 4);
             MaximizeBox = false;
             MinimizeBox = false;
