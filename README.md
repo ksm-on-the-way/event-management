@@ -7,7 +7,7 @@
 
 **Welcome mọi feedback!**
 
-**CODE | CODE | CODE **
+**CODE | CODE | CODE**
 
 **KsM-on-the-way**
 
