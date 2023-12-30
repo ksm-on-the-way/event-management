@@ -46,7 +46,7 @@ namespace Nhom3.DoAnKTHP.EventMgt
                           };
             if (cbChuDe.Text == "Tất cả")
             {
-                dgvDanhSachSuKien.DataSource = sukiens.Where(xxx => xxx.MaTrangThaiDuyet == 3).ToList();
+                dgvDanhSachSuKien.DataSource = sukiens.Where(xxx => xxx.ChuDe == cbChuDe.Text).Where(xxx => xxx.MaTrangThaiDuyet == 3).ToList();
             }
             else
             {
@@ -85,6 +85,7 @@ namespace Nhom3.DoAnKTHP.EventMgt
             cbChuDe.DataSource = chuDeBLL.GetAllChuDes();
             cbChuDe.DisplayMember = "TenChuDe";
             cbChuDe.ValueMember = "MaChuDe";
+            cbChuDe.SelectedIndex = 3;
 
         }
 
